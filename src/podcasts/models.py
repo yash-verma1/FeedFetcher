@@ -4,7 +4,7 @@ class Episode(models.Model):
     podcast_title = models.CharField(max_length=200)
     description = models.TextField()
     pub_date = models.DateTimeField()
-    url = models.URLField(max_length=200)
+    link = models.URLField(max_length=200)
     image = models.URLField(max_length=200)
     podcast_name = models.CharField(max_length=100)
     podcast_network = models.CharField(max_length=150)
