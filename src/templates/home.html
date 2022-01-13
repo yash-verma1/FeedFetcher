@@ -38,7 +38,7 @@
               <div class="col-md-10">
                 <div class="card-body ml-3">
                   <h3 class="card-title">{{ episode.podcast_title }}</h3>
-                  <p class="card-text">{{ episode.description }}</p>
+                  <p class="card-text">{{ episode.description|safe }}</p>
                   <a href="{{ episode.link }}">
                     <p class="card-text">🎧 Listen to this episode</p>
                   </a>
