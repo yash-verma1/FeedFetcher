@@ -6,3 +6,4 @@ TODO:
 Add Users model
 Add login and saving new feeds
 Update UI
+Add tags and separate different content types
